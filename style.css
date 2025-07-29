@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+  line-height: 1.6;
+  padding: 0 1rem;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark {
+  background: #121212;
+  color: #f5f5f5;
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #1f2937;
+  color: #fff;
+}
+header .links a {
+  margin: 0 0.5rem;
+  color: #60a5fa;
+  text-decoration: none;
+}
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s;
+}
+body.dark section {
+  background: #1e1e1e;
+}
+h2 {
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+body.dark h2 {
+  color: #90cdf4;
+}
+.card {
+  background: #f1f5f9;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+body.dark .card {
+  background: #2c2c2c;
+}
+.skills ul, .certs ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+.contact a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: #e5e7eb;
+  margin-top: 2rem;
+}
+body.dark footer {
+  background: #1f1f1f;
+}
+.toggle-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #1f2937;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
